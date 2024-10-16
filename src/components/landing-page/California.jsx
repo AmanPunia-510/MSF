@@ -34,8 +34,8 @@ const California = () => {
                 </div>
             </div>
             <img src={California_ellipse} className='absolute right-0 bottom-20' alt="California_ellipse" />
-        </div >
+        </div>
     )
 }
 
-export default California
+export default California;

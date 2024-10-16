@@ -4,6 +4,8 @@ import Feature from "./components/landing-page/Feature";
 import Hero from "./components/landing-page/Hero";
 import California from "./components/landing-page/California";
 import OurFirm from "./components/landing-page/OurFirm";
+import Stories from "./components/landing-page/Stories";
+import Lawyers from "./components/landing-page/Lawyers";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Hero />
       <Feature />
       <Choose />
+      <Lawyers />
+      <Stories />
       <OurFirm />
       <California />
     </>

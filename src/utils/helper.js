@@ -1,5 +1,6 @@
 import Hero_Background from "../assets/images/png/hero-bg.png";
 import ICON_DATA from "../components/common/Icons";
+import Richard_Image from "../assets/images/png/richard.png";
 
 // HEADER IMAGE
 export const Hero_Bg = {
@@ -71,5 +72,103 @@ export const California_Data = [
     pBold: "P",
     pNumber: " (949) 252-9990",
     button: "MAP",
-  }
+  },
+];
+
+// STORIES SLIDER
+export const Stories_Slider = [
+  {
+    image: Richard_Image,
+    alt: "Story-box-one",
+    dateIcon: <ICON_DATA icons="date" />,
+    date: "Feb 15, 2023",
+    commentIcon: <ICON_DATA icons="comment" />,
+    comment: "Comment (2)",
+    description:
+      "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
+    more: "Read More",
+    readArrow: <ICON_DATA icons="readArrow" />,
+  },
+  {
+    image: Richard_Image,
+    alt: "Story-box-one",
+    dateIcon: <ICON_DATA icons="date" />,
+    date: "Feb 15, 2023",
+    commentIcon: <ICON_DATA icons="comment" />,
+    comment: "Comment (2)",
+    description:
+      "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
+    more: "Read More",
+    readArrow: <ICON_DATA icons="readArrow" />,
+  },
+  {
+    image: Richard_Image,
+    alt: "Story-box-one",
+    dateIcon: <ICON_DATA icons="date" />,
+    date: "Feb 15, 2023",
+    commentIcon: <ICON_DATA icons="comment" />,
+    comment: "Comment (2)",
+    description:
+      "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
+    more: "Read More",
+    readArrow: <ICON_DATA icons="readArrow" />,
+  },
+  {
+    image: Richard_Image,
+    alt: "Story-box-one",
+    dateIcon: <ICON_DATA icons="date" />,
+    date: "Feb 15, 2023",
+    commentIcon: <ICON_DATA icons="comment" />,
+    comment: "Comment (2)",
+    description:
+      "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
+    more: "Read More",
+    readArrow: <ICON_DATA icons="readArrow" />,
+  },
+  {
+    image: Richard_Image,
+    alt: "Story-box-one",
+    dateIcon: <ICON_DATA icons="date" />,
+    date: "Feb 15, 2023",
+    commentIcon: <ICON_DATA icons="comment" />,
+    comment: "Comment (2)",
+    description:
+      "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
+    more: "Read More",
+    readArrow: <ICON_DATA icons="readArrow" />,
+  },
+  {
+    image: Richard_Image,
+    alt: "Story-box-one",
+    dateIcon: <ICON_DATA icons="date" />,
+    date: "Feb 15, 2023",
+    commentIcon: <ICON_DATA icons="comment" />,
+    comment: "Comment (2)",
+    description:
+      "At Manly Stewart & Finaldi, our attorneys routinely represent sexual assault victims in high-profile national cases.",
+    more: "Read More",
+    readArrow: <ICON_DATA icons="readArrow" />,
+  },
+];
+
+// PARAGRAPH DATA
+export const Paragraphs_Lawyer = [
+  {
+    textName:
+      "No case is too challenging for our lawyers. When we say that we aren’t afraid to stand up to any major institution, we have the track record to prove it. The firm has recovered more than $2 billion dollars on behalf of clients from the nation’s largest school districts, religious institutions, municipalities, sports and youth organizations and Fortune 500 companies.",
+    className: "text-center pt-6",
+  },
+  {
+    blackText:
+      "If you or a loved one is a survivor of sexual violence and abuse, please ",
+    blueText: "contact our law offices in Southern California",
+    blackTextClass:
+      " for a free, 100% confidential consultation regarding your case.",
+    className: "text-center mt-6",
+  },
+  {
+    blackText:
+      "You deserve closure, and any responsible parties deserve justice for their despicable actions. Let a trusted California sexual abuse lawyer at our firm help you today.",
+    className: "text-center mt-6",
+  },
 ];
