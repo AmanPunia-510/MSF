@@ -8,13 +8,11 @@ const Heading = ({
     blackTextOne,
 }) => {
     return (
-        <h2
-            className={` ${className}`}
-        >
+        <h2 className={`font-light text-5xl leading-120 text-wrap ${className}`}>
             {textName}
-            <span className={`text-black ${blackTextClass}`}>{blackText}</span>
-            <span className={`text-orange-20 font-rubik font-semibold ${orangeTextClass}`}>{orangeText}</span>
-            <span className={`text-black ${blackTextClass}`}>{blackTextOne}</span>
+            <span className={`font-Bahnschrift ${blackTextClass}`}>{blackText}</span>
+            <span className={`font-Bahnschrift text-[#CD520F] font-bold ${orangeTextClass}`}>{orangeText}</span>
+            <span className={`font-Bahnschrift ${blackTextClass}`}>{blackTextOne}</span>
         </h2>
     );
 };

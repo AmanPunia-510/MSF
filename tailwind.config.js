@@ -26,6 +26,9 @@ module.exports = {
       colors: {
         "primary-color": "#CD520F",
         "light-black": "#B2B2B2",
+        "blue-color": "#2B587F",
+        "california-box": "#FFFFFF1A",
+        "paragraph-ba": "#BABABA",
       },
       boxShadow: {
         "feature-shadow": "0px 11px 24px 0px #0000001A",
