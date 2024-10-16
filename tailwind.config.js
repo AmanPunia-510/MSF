@@ -21,6 +21,7 @@ module.exports = {
         160: "160%",
       },
       fontSize: {
+        "custom-3xl": "38px",
         "custom-6xl": "80px",
       },
       colors: {
@@ -29,6 +30,7 @@ module.exports = {
         "blue-color": "#2B587F",
         "california-box": "#FFFFFF1A",
         "paragraph-ba": "#BABABA",
+        "thin-black": "#4d4d4d",
       },
       boxShadow: {
         "feature-shadow": "0px 11px 24px 0px #0000001A",

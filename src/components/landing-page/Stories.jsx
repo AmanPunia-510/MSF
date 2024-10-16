@@ -48,11 +48,11 @@ function Stories() {
                 ))}
             </Slider>
             <div
-                className="absolute top-1/2 -left-12 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={previousSlide}>
+                className="absolute top-[65%] -left-12 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={previousSlide}>
                 <ICON_DATA icons='prevArrow' />
             </div>
             <div
-                className="absolute top-1/2 -right-12 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={nextSlide}>
+                className="absolute top-[65%] -right-12 transform -translate-y-1/2 bg-blue-color text-white p-2 rounded-full cursor-pointer z-10" onClick={nextSlide}>
                 <ICON_DATA icons='nextArrow' />
             </div>
         </div>

@@ -172,3 +172,58 @@ export const Paragraphs_Lawyer = [
     className: "text-center mt-6",
   },
 ];
+
+// VICTIM CALIFORNIA DATA
+export const Victim_California = [
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Clergy abuse",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "School abuse",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Abuse occurring in sports organizations",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Abuse at youth group and summer camps",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Cases of online sexual harassment",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Elder sexual abuse in nursing homes",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Uber/Lyft sexual abuse",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Sexual abuse by doctors",
+  },
+];
+
+export const Parties_California = [
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "The abuser who was directly responsible",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Any coworkers, staff members, or others who knew of the abuse but did not come forward to report it",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Any larger organizations or institutions who failed to take action against the abuse",
+  },
+  {
+    rightTick: <ICON_DATA icons="rightTick" />,
+    text: "Any potential law enforcement officials who exercised negligence in allowing the abuse to occur",
+  },
+];

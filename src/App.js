@@ -6,6 +6,7 @@ import California from "./components/landing-page/California";
 import OurFirm from "./components/landing-page/OurFirm";
 import Stories from "./components/landing-page/Stories";
 import Lawyers from "./components/landing-page/Lawyers";
+import Victim from "./components/landing-page/Victim";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Feature />
       <Choose />
+      <Victim />
       <Lawyers />
       <Stories />
       <OurFirm />

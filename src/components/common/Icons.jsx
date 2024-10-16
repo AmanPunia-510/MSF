@@ -54,6 +54,11 @@ const ICON_DATA = ({ className, icons }) => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
             </svg>
         ),
+        rightTick: (
+            <svg width="21" height="12" viewBox="0 0 21 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M6.84668 5.98492L11.0897 10.2279L19.5737 1.74292M1.84668 5.98492L6.08968 10.2279M14.5747 1.74292L11.3467 4.99992" stroke="#CD520F" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        ),
     };
     return ICON_DATA && icon[icons];
 };
